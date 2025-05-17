@@ -1,0 +1,13 @@
+[logger]
+level = "info"
+
+[client]
+showErrorDetails = "stacktrace"
+
+[runner]
+magicEnabled = true
+fastReruns = true
+
+[server]
+port = 8501
+runOnSave = true
