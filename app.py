@@ -2,13 +2,15 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Hephaestus",
-    page_icon="🧊",
+    page_icon="🗺️",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
 routes, pages = {
-    "Home": "pages/home.py",
+    "🏠 Home": "pages/home.py",
+    "🔍 Explore": "pages/explore.py",
+    "Personalize": "pages/personalize.py",
     "About": "pages/about.py",
 }, []
 
