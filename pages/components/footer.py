@@ -1,4 +1,4 @@
 import streamlit as st
 
-def run():
+def footer():
     st.write("This is footer!")

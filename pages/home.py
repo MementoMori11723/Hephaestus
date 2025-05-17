@@ -1,7 +1,6 @@
 import streamlit as st
-
-from pages.components.navbar import run as navbar
-from pages.components.footer import run as footer
+from pages.components.navbar import navbar
+from pages.components.footer import footer
 
 navbar()
 st.write("Home Page!")

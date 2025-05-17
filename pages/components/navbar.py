@@ -1,4 +1,4 @@
 import streamlit as st
 
-def run():
+def navbar():
     st.write("This is navbar")
