@@ -8,9 +8,10 @@ st.set_page_config(
 )
 
 routes, pages = {
-    "🏠 Home": "pages/home.py",
-    "🔍 Explore": "pages/explore.py",
+    "Home": "pages/home.py",
+    "Explore": "pages/explore.py",
     "Personalize": "pages/personalize.py",
+    "Art & Culture": "pages/culture.py",
     "About": "pages/about.py",
 }, []
 

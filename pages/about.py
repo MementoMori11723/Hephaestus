@@ -1,6 +1,5 @@
 import streamlit as st
-from pages.components.navbar import navbar
-from pages.components.footer import footer
+from components.common import navbar, footer
 
 navbar()
 st.write("About Page!")
