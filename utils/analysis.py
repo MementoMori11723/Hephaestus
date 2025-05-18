@@ -1,6 +1,4 @@
-from data.api import fetch
+# from data.api import fetch
 
 def analyse():
-    return {
-        "number": fetch()
-    }
+    pass

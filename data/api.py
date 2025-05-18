@@ -1,2 +1,2 @@
 def fetch():
-    return 10
+    pass
