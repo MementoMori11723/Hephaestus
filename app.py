@@ -19,7 +19,7 @@ def main():
 
         # Listing all files from pages folder! 
         for file in os.listdir(path=pages_dir):
-           unsorted_routes[os.path.splitext(file)[0].capitalize()] = os.path.join(pages_dir, file)
+            unsorted_routes[os.path.splitext(file)[0].capitalize()] = os.path.join(pages_dir, file)
 
         # This first sets the priority routes at the top! 
         routes = {
@@ -39,7 +39,7 @@ def main():
                     default=isHome
                 )
             )
-        
+
         # Setting Sidebar Navigation!
         navigation = st.navigation(pages=pages)
         navigation.run()
