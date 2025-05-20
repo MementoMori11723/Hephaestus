@@ -4,10 +4,10 @@ import os
 def main():
     try:
         # Variables
-        pages_dir = "pages/" 
+        pages_dir = "pages/"
         priority = ["Home", "About"]
-        unsorted_routes = {} 
-        pages = [] 
+        unsorted_routes = {}
+        pages = []
 
         # Pre - setup config for streamlit!
         st.set_page_config(

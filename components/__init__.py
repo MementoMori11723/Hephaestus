@@ -1,8 +1,9 @@
-__all__ = ["common", "about", "explore", "home", "personalize", "culture"]
+__all__ = ["common", "about", "places", "home", "personalize", "clothes", "flavors"]
 
 from . import common
 from . import about
-from . import explore
+from . import places
 from . import home
 from . import personalize
-from . import culture
+from . import clothes
+from . import flavors
