@@ -11,3 +11,21 @@ fastReruns = true
 [server]
 port = 8501
 runOnSave = true
+
+[theme]
+base = "light"
+primaryColor = "#FF7722"
+linkColor = "#138808"
+textColor = "#312C6A"
+font = "Ancizar"
+headingFont = "Ancizar"
+codeFont = "monospace"
+baseRadius = "medium"
+baseFontSize = 20
+fontFaces = ["Ancizar"]
+
+[[theme.fontFaces]]
+font = "Ancizar"
+url = "https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap"
+weight = 400
+style = "normal"
