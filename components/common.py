@@ -1,7 +1,5 @@
 import streamlit as st
 
-def Navbar():
-    st.write("This is navbar")
-
 def Footer():
+    st.divider()
     st.write("This is footer!")

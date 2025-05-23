@@ -1,9 +1,8 @@
 import streamlit as st
-from components.common import Navbar, Footer
+from components.common import Footer
 from components.home import Culture, Explore, Hero, About, Personalize
 
 try:
-    Navbar()
     Hero(
         st.container(
             height=500
@@ -11,7 +10,7 @@ try:
     )
     About(
         st.container(
-            height=500
+            height=600
         )
     )
     Personalize(
@@ -26,7 +25,7 @@ try:
     )
     Explore(
         st.container(
-            height=500
+            height=550
         )
     )
     Footer()

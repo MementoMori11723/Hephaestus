@@ -1,6 +1,5 @@
 import streamlit as st
-from components.common import Navbar, Footer
+from components.common import Footer
 
-Navbar()
-st.write("culture")
+st.write("Culture")
 Footer()
