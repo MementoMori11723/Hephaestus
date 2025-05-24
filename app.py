@@ -12,7 +12,7 @@ def main():
         # Pre - setup config for streamlit!
         st.set_page_config(
             page_title="Hephaestus",
-            page_icon="🗺️",
+            page_icon="🇮🇳",
             layout="wide",
             initial_sidebar_state="expanded",
         )

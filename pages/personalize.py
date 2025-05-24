@@ -1,15 +1,12 @@
-import streamlit as st
-from components.common import Footer
+from components.common import Layout 
+from components import personalize
 
-@st.dialog("Test-2", width="large")
-def test_2():
-    st.write("This is test-2")
-    if st.button("Is working?"):
-        with st.expander("It is working..."):
-            Footer()
+try:
+    # Getting Placeholders
+    main, side_main = Layout()
+   
+    # Personalize page content  
+    personalize.Quiz(main)
 
-with st.expander("Test-1", True):
-    if st.button("test-2"):
-        test_2()
-
-Footer()
+except Exception as e:
+    raise e

@@ -1,5 +1,10 @@
-import streamlit as st
-from components.common import Footer
+from components.common import Layout
+from components import culture
 
-st.write("Culture")
-Footer()
+try:
+    # Getting Placeholders
+    main, side_main = Layout()
+    
+    culture.Culture(main)
+except Exception as e:
+    raise e

@@ -21,7 +21,7 @@ font = "Ancizar Serif, serif"
 headingFont = "Ancizar Serif, serif"
 codeFont = "monospace"
 baseRadius = "medium"
-baseFontSize = 20
+baseFontSize = 18
 
 [[theme.fontFaces]]
 family = "Ancizar Serif"
