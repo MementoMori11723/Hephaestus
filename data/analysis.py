@@ -2,7 +2,7 @@ import os
 import pandas as pd
 # from data.api import fetch
 
-def load_data() -> dict:
+def load_data() -> dict[str, pd.DataFrame]:
     data = {}
     
     for file in os.listdir("datasets/"):
@@ -13,4 +13,10 @@ def load_data() -> dict:
     return data
 
 def analyse():
-    pass
+
+    data = load_data()
+
+    df = data["Crop_production.csv"]
+
+    return df
+
