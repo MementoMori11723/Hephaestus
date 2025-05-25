@@ -1,0 +1,326 @@
+﻿,place_name,city,state,type,rating,established_year,time_to_visit_hr,entrance_fee_inr,weekly_off,significance,dslr_allowed,google_reviews_lakh,best_time_text,has_airport_nearby,zone
+0,India Gate,Delhi,Delhi,War Memorial,4.6,1921,0.5,0,,Historical,Yes,2.6,Evening,Yes,Northern
+1,Humayun's Tomb,Delhi,Delhi,Tomb,4.5,1572,2,30,,Historical,Yes,0.4,Afternoon,Yes,Northern
+2,Akshardham Temple,Delhi,Delhi,Temple,4.6,2005,5,60,,Religious,No,0.4,Afternoon,Yes,Northern
+3,Waste to Wonder Park,Delhi,Delhi,Theme Park,4.1,2019,2,50,Monday,Environmental,Yes,0.27,Evening,Yes,Northern
+4,Jantar Mantar,Delhi,Delhi,Observatory,4.2,1724,2,15,,Scientific,Yes,0.31,Morning,Yes,Northern
+5,Chandni Chowk,Delhi,Delhi,Market,4.2,1700,3,0,Sunday,Market,Yes,0.25,Afternoon,Yes,Northern
+6,Lotus Temple,Delhi,Delhi,Temple,4.5,1986,1,0,Monday,Religious,Yes,0.59,Evening,Yes,Northern
+7,Red Fort,Delhi,Delhi,Fort,4.5,1648,2,35,,Historical,Yes,1.5,Afternoon,Yes,Northern
+8,Agrasen ki Baoli,Delhi,Delhi,Stepwell,4.2,1400,1,0,,Historical,Yes,0.41,Afternoon,Yes,Northern
+9,Sunder Nursery,Delhi,Delhi,Park,4.6,1600,2,0,,Botanical,Yes,0.16,Afternoon,Yes,Northern
+10,Garden of Five Senses,Delhi,Delhi,Park,4.1,2003,2,35,,Botanical,Yes,0.23,Morning,Yes,Northern
+11,Lodhi Garden,Delhi,Delhi,Park,4.5,1500,1,0,,Botanical,Yes,0.48,All,Yes,Northern
+12,National Gallery of Modern Art,Delhi,Delhi,Museum,4.5,1954,3,20,Monday,Artistic,Yes,0.08,All,Yes,Northern
+13,National Zoological Park ,Delhi,Delhi,Zoo,4.1,1959,3,80,Friday,Environmental,Yes,0.41,All,Yes,Northern
+14,Qutub Minar,Delhi,Delhi,Monument,4.5,1192,1,35,,Historical,Yes,1.37,Afternoon,Yes,Northern
+15,National Science Centre,Delhi,Delhi,Science,4.4,1992,5,70,,Scientific,Yes,0.23,All,Yes,Northern
+16,Marine Drive,Mumbai,Maharastra,Promenade,4.5,Unknown,2,0,,Scenic,Yes,1.5,Evening,Yes,Western
+17,Gateway of India,Mumbai,Maharastra,Monument,4.6,1924,1,0,,Historical,Yes,3.6,All,Yes,Western
+18,Chhatrapati Shivaji Maharaj Vastu Sangrahalaya,Mumbai,Maharastra,Museum,4.6,1922,1,500,,Historical,Yes,0.34,All,Yes,Western
+19,Sanjay Gandhi National Park,Mumbai,Maharastra,National Park,4.3,1996,3,50,Monday,Wildlife,Yes,0.6,All,Yes,Western
+20,Siddhivinayak Temple,Mumbai,Maharastra,Temple,4.8,1881,2,0,,Religious,No,1.05,All,Yes,Western
+21,Mahalaxmi Temple,Mumbai,Maharastra,Temple,4.7,1831,1,0,,Religious,No,0.33,All,Yes,Western
+22,Haji Ali Dargah,Mumbai,Maharastra,Religious Shrine,4.4,1431,2,0,,Religious,No,0.16,All,Yes,Western
+23,Chowpatty Beach,Mumbai,Maharastra,Beach,4.3,Unknown,2,0,,Recreational,Yes,0.05,Evening,Yes,Western
+24,Essel World,Mumbai,Maharastra,Amusement Park,4.3,1986,5,1149,,Recreational,Yes,0.27,All,Yes,Western
+25,Elephanta Caves,Mumbai,Maharastra,Monument,4.3,1987,4,550,,Historical,Yes,0.35,All ,Yes,Western
+26,Imagicaa,Lonavala,Maharastra,Amusement Park,1.4,2013,5,1149,Monday,Recreational,Yes,0.95,All,No,Western
+27,Bangalore Palace,Bangalore,Karnataka,Palace,4.2,1878,2,500,Monday,Historical,Yes,0.9,Morning,Yes,Southern
+28,Lalbagh Botanical Garden,Bangalore,Karnataka,Botanical Garden,4.4,1760,1.5,20,,Nature,Yes,1.5,Evening,Yes,Southern
+29,Cubbon Park,Bangalore,Karnataka,Park,4.4,1870,1,0,,Nature,Yes,1.32,Morning,Yes,Southern
+30,Vidhana Soudha,Bangalore,Karnataka,Government Building,4.6,1956,0.5,0,,Architectural,No,0.8,Morning,Yes,Southern
+31,ISKCON Temple Bangalore,Bangalore,Karnataka,Temple,4.6,1997,1,0,,Religious,Yes,1.14,Evening,Yes,Southern
+32,Charminar,Hyderabad,Telangana,Landmark,4.5,1591,1,25,Friday,Historical,Yes,2.1,Morning,Yes,Southern
+33,Golconda Fort,Hyderabad,Telangana,Fort,4.4,1600,2,30,,Historical,Yes,1.2,Morning,Yes,Southern
+34,Hussain Sagar Lake,Hyderabad,Telangana,Lake,4.3,1563,1,0,,Scenic,Yes,0.5,Evening,Yes,Southern
+35,Ramoji Film City,Hyderabad,Telangana,Film Studio,4.4,1996,4,1150,,Entertainment,Yes,0.45,All,Yes,Southern
+36,Salar Jung Museum,Hyderabad,Telangana,Museum,4.4,1951,2,20,,Historical,Yes,0.67,All,Yes,Southern
+37,Qutb Shahi Tombs,Hyderabad,Telangana,Tombs,4.4,1600,1,25,,Historical,Yes,0.2,Morning,Yes,Southern
+38,Birla Mandir,Hyderabad,Telangana,Temple,4.7,1976,1,0,,Religious,No,0.41,All,Yes,Southern
+39,Chowmahalla Palace,Hyderabad,Telangana,Palace,4.4,1800,1.5,80,,Historical,Yes,0.45,Morning,Yes,Southern
+40,Nehru Zoological Park,Hyderabad,Telangana,Zoo,4.2,1963,3,50,,Wildlife,Yes,0.86,Morning,Yes,Southern
+41,Lumbini Park,Hyderabad,Telangana,Park,4.1,1994,1,20,,Recreational,Yes,0.73,Evening,Yes,Southern
+42,Victoria Memorial,Kolkata,West Bengal,Museum,4.6,1921,1.5,30,Monday,Historical,Yes,0.73,Morning,Yes,Eastern
+43,Howrah Bridge,Kolkata,West Bengal,Bridge,4.6,1943,0.5,0,,Architectural,No,1.2,Anytime,Yes,Eastern
+44,Indian Museum,Kolkata,West Bengal,Museum,4.6,1814,2,50,Monday,Historical,Yes,0.18,Morning,Yes,Eastern
+45,Dakshineswar Kali Temple,Kolkata,West Bengal,Temple,4.7,1855,1,0,,Religious,Yes,0.82,Morning,Yes,Eastern
+46,Kalighat Kali Temple,Kolkata,West Bengal,Temple,4.4,1809,1,0,,Religious,Yes,0.5,Morning,Yes,Eastern
+47,Eden Gardens,Kolkata,West Bengal,Cricket Ground,4.1,1864,3,2500,,Sports,Yes,0.1,All,Yes,Eastern
+48,Alipore Zoological Gardens,Kolkata,West Bengal,Zoo,4.3,1876,2,25,,Wildlife,Yes,0.66,Afternoon,Yes,Eastern
+49,Science City Kolkata,Kolkata,West Bengal,Science,4.4,1997,3,60,,Educational,Yes,0.88,All,Yes,Eastern
+50,Belur Math,Kolkata,West Bengal,Site,4.7,1898,1.5,0,,Religious,Yes,0.47,Morning,Yes,Eastern
+51,Marble Palace,Kolkata,West Bengal,Palace,4.4,1835,1,0,,Historical,Yes,0.1,Afternoon,Yes,Eastern
+52,Calangute Beach,Goa,Goa,Beach,4.4,Unknown,2,0,,Scenic,Yes,0.26,Evening,Yes,Southern
+53,Basilica of Bom Jesus,Goa,Goa,Church,4.5,1605,1,0,,Historical,Yes,0.59,Afternoon,Yes,Southern
+54,Fort Aguada,Goa,Goa,Fort,4.2,1612,1.5,0,,Historical,Yes,0.95,Morning,Yes,Southern
+55,Dudhsagar Falls,Goa,Goa,Waterfall,4.6,Unknown,3,500,,Nature,Yes,0.3,Afternoon,Yes,Southern
+56,Anjuna Beach,Goa,Goa,Beach,4.4,Unknown,2,0,,Scenic,Yes,0.18,Evening,Yes,Southern
+57,Chapora Fort,Goa,Goa,Fort,4.2,1617,1,0,,Historical,Yes,0.19,Evening,Yes,Southern
+58,Se Cathedral,Goa,Goa,Church,4.5,1640,1,0,,Historical,Yes,0.05,Afternoon,Yes,Southern
+59,Baga Beach,Goa,Goa,Beach,4.5,Unknown,2,0,,Scenic,Yes,0.35,Evening,Yes,Southern
+60,Arambol Beach,Goa,Goa,Beach,4.6,Unknown,2,0,,Scenic,Yes,0.1,Evening,Yes,Southern
+61,Palolem Beach,Goa,Goa,Beach,4.6,Unknown,2,0,,Scenic,Yes,0.27,Evening,Yes,Southern
+62,Colva Beach,Goa,Goa,Beach,4.3,Unknown,2,0,,Scenic,Yes,0.1,Evening,Yes,Southern
+63,Miramar Beach,Goa,Goa,Beach,4.2,Unknown,1.5,0,,Scenic,Yes,0.3,Evening,Yes,Southern
+64,Aguada Beach,Goa,Goa,Beach,4.5,Unknown,2,0,,Scenic,Yes,0.01,Evening,Yes,Southern
+65,Dr. Salim Ali Bird Santuary,Goa,Goa,Bird Sanctuary,3.9,1988,2,10,,Wildlife,Yes,0.03,Afternoon,Yes,Southern
+66,Sabarmati Ashram,Ahmedabad,Gujarat,Historical,4.6,1915,1.5,0,,Historical,Yes,0.35,Morning,Yes,Western
+67,Dwarkadhish Temple,Dwarka,Gujarat,Temple,4.7,-400,2,0,,Religious,No,0.59,Evening,No,Western
+68,Gir National Park,Junagadh,Gujarat,National Park,4.5,1965,3,3500,,Wildlife,Yes,0.08,Morning,No,Western
+69,White Desert,Bhuj,Gujarat,Site,4.6,1950,2.5,0,,Nature,Yes,0.12,Evening,Yes,Western
+70,Laxmi Vilas Palace,Vadodara,Gujarat,Palace,4.4,1890,2,200,Monday,Historical,Yes,0.17,Afternoon,Yes,Western
+71,Somnath Temple,Somnath,Gujarat,Temple,4.8,1951,2,0,,Religious,No,0.39,Morning,No,Western
+72,Rann Utsav,Rann of Kutch,Gujarat,Cultural,4.9,Unknown,3,7500,,Cultural,Yes,0.1,Evening,Yes,Western
+73,Statue of Unity,Kevadia,Gujarat,Monument,4.6,2018,3,350,Monday,Historical,Yes,0.67,All,No,Western
+74,Dandi Kutir,Gandhinagar,Gujarat,Museum,4.5,2013,1.5,0,,Historical,Yes,0.05,All,No,Western
+75,Sabarmati Riverfront,Ahmedabad,Gujarat,Urban Development Project,4.6,2012,1,0,,Recreational,Yes,0.1,Evening,Yes,Western
+76,Manek Chowk,Ahmedabad,Gujarat,Market,4.4,Unknown,2,0,,Food,Yes,0.49,Night,Yes,Western
+77,Kankaria Lake,Ahmedabad,Gujarat,Lake,4.5,1451,3,10,,Recreational,Yes,0.3,Afternoon,Yes,Western
+78,Science City,Ahmedabad,Gujarat,Science,4.4,2002,7,500,Monday,Educational,Yes,0.11,All,Yes,Western
+79,Hawa Mahal,Jaipur,Rajasthan,Palace,4.4,1799,1,50,,Architectural,Yes,1.3,Morning,Yes,Northern
+80,City Palace,Udaipur,Rajasthan,Palace,4.4,1559,2,300,,Historical,Yes,0.51,All,Yes,Northern
+81,Jaisalmer Fort,Jaisalmer,Rajasthan,Fort,4.4,1156,2.5,50,,Historical,Yes,0.56,All,No,Northern
+82,Ranthambore National Park,Sawai Madhopur,Rajasthan,Wildlife Sanctuary,4.6,1980,3,500,,Wildlife,Yes,0.09,All,No,Northern
+83,Pushkar Lake,Pushkar,Rajasthan,Temple,4.4,1400,1.5,0,,Religious,Yes,1.6,All,No,Northern
+84,Ajmer Sharif Dargah,Ajmer,Rajasthan,Shrine,4.6,1236,1,0,,Religious,No,0.35,All,Yes,Northern
+85,Mehrangarh Fort,Jodhpur,Rajasthan,Fort,4.6,1459,2,100,,Historical,Yes,0.64,All,Yes,Northern
+86,Chittorgarh Fort,Chittorgarh,Rajasthan,Fort,4.6,700,2,40,,Historical,Yes,1.9,All,No,Northern
+87,Dilwara Temples,Mount Abu,Rajasthan,Temple,4.6,1100,1,0,,Religious,No,0.05,All,No,Northern
+88,Junagarh Fort,Bikaner,Rajasthan,Fort,4.5,1589,2,50,,Historical,Yes,0.32,All,Yes,Northern
+89,Amber Fort,Jaipur,Rajasthan,Fort,4.6,1592,2,100,,Historical,Yes,1.5,All,Yes,Northern
+90,Jaigarh Fort,Jaipur,Rajasthan,Fort,4.5,1726,1.5,35,,Historical,Yes,0.3,All,Yes,Northern
+91,Lake Pichola,Udaipur,Rajasthan,Lake,4.6,1362,1,0,,Nature,Yes,0.5,All,Yes,Northern
+92,Golden Temple (Harmandir Sahib),Amritsar,Punjab,Religious Site,4.9,1604,1.5,0,,Spiritual,Yes,1.9,All,Yes,Northern
+93,Jallianwala Bagh,Amritsar,Punjab,Memorial,4.8,1951,1,0,,Historical,Yes,0.3,Afternoon,Yes,Northern
+94,Wagah Border,Amritsar,Punjab,Border Crossing,4.8,1950,2,0,,Cultural,Yes,0.17,Evening,Yes,Northern
+95,Rock Garden,Chandigarh,Punjab,Sculpture Garden,4.5,1976,2,30,,Artistic,Yes,0.5,All,Yes,Northern
+96,Alappuzha Beach,Alappuzha,Kerala,Beach,4.5,Unknown,1.5,0,,Recreational,Yes,0.11,All,Yes,Southern
+97,Munnar Tea Gardens,Munnar,Kerala,Scenic Area,4.3,Unknown,2,0,,Nature,Yes,0.3,All,No,Southern
+98,Fort Kochi,Kochi,Kerala,Site,4.4,1503,1,0,,Historical,Yes,0.1,All,Yes,Southern
+99,Padmanabhaswamy Temple,Thiruvananthapuram,Kerala,Temple,4.7,Unknown,1,0,,Religious,No,0.46,All,Yes,Southern
+100,Kozhikode Beach,Kozhikode,Kerala,Beach,3.9,Unknown,1.5,0,,Recreational,Yes,0.059,All,Yes,Southern
+101,Wayanad Wildlife Sanctuary,Wayanad,Kerala,Wildlife Sanctuary,4.5,Unknown,3,300,,Wildlife,Yes,2.2,All,No,Southern
+102,Periyar National Park,Thekkady,Kerala,National Park,4.3,1982,3,50,,Wildlife,Yes,0.14,All,No,Southern
+103,Kumarakom Bird Sanctuary,Kumarakom,Kerala,Bird Sanctuary,3.8,1972,2,50,,Wildlife,Yes,0.1,All,Yes,Southern
+104,Varkala Beach,Varkala,Kerala,Beach,4.6,Unknown,2,0,,Recreational,Yes,0.1,All,Yes,Southern
+105,Bekal Fort,Bekal,Kerala,Fort,4.5,1650,1.5,20,,Historical,Yes,0.22,All,No,Southern
+106,Kovalam Beach,Kovalam,Kerala,Beach,4.4,Unknown,2,0,,Recreational,Yes,0.68,All,Yes,Southern
+107,St. Angelo Fort,Kannur,Kerala,Fort,4.4,1505,1,20,,Historical,Yes,0.11,All,Yes,Southern
+108,Seethargundu Viewpoint,Nelliyampathy,Kerala,Viewpoint,4.5,Unknown,1,0,,Nature,Yes,0.03,Morning,No,Southern
+109,Kerala Folklore Museum,Kochi,Kerala,Cultural,4.4,2009,1.5,100,Monday,Cultural,Yes,0.1,All,Yes,Southern
+110,Wonderla Amusement Park,Kochi,Kerala,Amusement Park,4.6,2016,5.5,750,,Entertainment,Yes,0.41,All,Yes,Southern
+111,Mysore Palace,Mysore,Karnataka,Palace,4.6,1912,2,50,,Historical,Yes,2.5,All,Yes,Southern
+112,Hampi Archaeological Ruins,Hampi,Karnataka,Site,4.7,Unknown,3,0,,Historical,Yes,0.05,All,No,Southern
+113,Abbey Falls,Coorg,Karnataka,Waterfall,4.1,Unknown,1,0,,Nature,Yes,0.03,Morning,No,Southern
+114,Om Beach,Gokarna,Karnataka,Beach,4.5,Unknown,2,0,,Nature,Yes,0.09,All,No,Southern
+115,Mullayanagiri,Chikmagalur,Karnataka,Mountain Peak,4.5,Unknown,3,0,,Nature,Yes,0.05,All,No,Southern
+116,Badami Cave Temples,Badami,Karnataka,Cave,4.6,600,1.5,30,,Religious,No,0.2,All,No,Southern
+117,Jog Falls,Shivamogga,Karnataka,Waterfall,4.6,1900,1.5,30,,Nature,Yes,0.23,Morning,No,Southern
+118,Panambur Beach,Mangalore,Karnataka,Beach,4.5,Unknown,1.5,0,,Recreational,Yes,0.1,All,Yes,Southern
+119,Murudeshwar Temple,Murudeshwar,Karnataka,Temple,4.7,Unknown,1,0,,Religious,No,0.49,All,Yes,Southern
+120,Gol Gumbaz,Bijapur,Karnataka,Mausoleum,4.5,1656,1.5,20,,Historical,Yes,0.25,All,No,Southern
+121,Bandipur National Park,Bandipur,Karnataka,National Park,4.4,1974,3,300,,Wildlife,Yes,0.15,Morning,No,Southern
+122,Halebidu Hoysaleswara Temple,Halebidu,Karnataka,Temple,4.7,1121,1,15,,Religious,No,0.11,All,No,Southern
+123,Shaniwar Wada,Pune,Maharastra,Fort,4.4,1732,2,50,,Historical,Yes,1.2,All,Yes,Western
+124,Ajanta Caves,Aurangabad,Maharastra,Cave,4.6,200,3,30,Monday,Historical,Yes,0.21,Afternoon,Yes,Western
+125,Sula Vineyards,Nashik,Maharastra,Vineyard,4.1,1999,2,300,,Recreational,Yes,0.1,Afternoon,Yes,Western
+126,Sai Baba Temple,Shirdi,Maharastra,Temple,4.7,1922,1.5,0,,Religious,No,0.69,All,Yes,Western
+127,Alibaug Beach,Alibaug,Maharastra,Beach,4.2,Unknown,1.5,0,,Recreational,Yes,0.05,Evening,Yes,Western
+128,Ganapatipule Temple,Ratnagiri,Maharastra,Temple,4.7,1600,1,0,,Religious,No,0.1,All,No,Western
+129,Deekshabhoomi,Nagpur,Maharastra,Monument,4.5,2001,1,0,,Religious,Yes,0.11,Afternoon,Yes,Western
+130,Mahalakshmi Temple,Kolhapur,Maharastra,Temple,4.8,700,1,0,,Religious,No,0.9,All,Yes,Western
+131,Karla Caves,Lonavala,Maharastra,Cave,4.4,200,1.5,25,,Historical,Yes,0.27,Afternoon,Yes,Western
+132,Tarkarli Beach,Tarkarli,Maharashtra,Beach,4.6,Unknown,2,0,,Recreational,Yes,0.065,Evening,No,Western
+133,Kaas Plateau,Satara,Maharashtra,Valley,4.4,Unknown,2,300,,Nature,Yes,0.05,Afternoon,No,Western
+134,Echo Point,Matheran,Maharashtra,Viewpoint,4.4,1828,1.5,0,,Nature,Yes,0.02,Morning,Yes,Western
+135,Ellora Caves,Ajanta,Maharashtra,Cave,4.7,600,3,30,Tuesday,Historical,Yes,0.49,Afternoon,Yes,Western
+136,Khajuraho Group of Monuments,Khajuraho,Madhya Pradesh,Temples,4.7,-850,2,40,,Cultural,Yes,0.09,Afternoon,No,Central
+137,Sanchi Stupa,Bhopal,Madhya Pradesh,Monument,4.7,-300,1.5,30,,Historical,Yes,0.01,Afternoon,Yes,Central
+138,Rajwada Palace,Indore,Madhya Pradesh,Palace,4.4,1747,1,10,,Historical,Yes,0.63,Afternoon,Yes,Central
+139,Gwalior Fort,Gwalior,Madhya Pradesh,Fort,4.5,900,2.5,75,,Historical,Yes,0.4,Morning,Yes,Central
+140,Mahakaleshwar Jyotirlinga,Ujjain,Madhya Pradesh,Temple,4.8,-3500,1.5,0,,Religious,No,1.2,All,Yes,Central
+141,Dhuandhar Falls,Jabalpur,Madhya Pradesh,Waterfall,4.5,Unknown,1,0,,Nature,Yes,0.01,Morning,No,Central
+142,Bee Falls,Pachmarhi,Madhya Pradesh,Waterfall,4.6,Unknown,1.5,15,,Nature,Yes,0.065,Morning,No,Central
+143,Kanha National Park,Kanha,Madhya Pradesh,Wildlife Sanctuary,4.5,1955,3,100,,Wildlife,Yes,0.1,Morning,No,Central
+144,Bandhavgarh National Park,Bandhavgarh,Madhya Pradesh,National Park,4.5,1968,3,50,,Wildlife,Yes,0.05,Morning,No,Central
+145,Orchha Fort,Orchha,Madhya Pradesh,Fort,4.8,1500,1.5,10,,Historical,Yes,0.1,Afternoon,No,Central
+146,Jahaz Mahal,Mandu,Madhya Pradesh,Site,3.9,1500,1,50,,Historical,Yes,0.03,Afternoon,No,Central
+147,Bhimbetka Rock Shelters,Bhimbetka,Madhya Pradesh,Prehistoric Site,4.6,1958,2,25,,Archaeological,Yes,0.07,Afternoon,No,Central
+148,Narmada Udgam Temple,Amarkantak,Madhya Pradesh,Temple,4.4,1200,1,0,,Religious,Yes,0.01,All,No,Central
+149,Chitrakoot Falls,Chitrakoot,Madhya Pradesh,Waterfall,4.4,Unknown,1.5,0,,Nature,Yes,0.1,Morning,No,Central
+150,The Ridge,Shimla,Himachal Pradesh,Scenic Point,4.7,Unknown,1,0,,Recreational,Yes,0.03,Morning,Yes,Northern
+151,Solang Valley,Manali,Himachal Pradesh,Valley,4.1,Unknown,2,0,,Adventure,Yes,0.05,Morning,No,Northern
+152,Dalai Lama Temple,dalhousie,Himachal Pradesh,Temple,4.7,1959,1.5,0,,Religious,No,0.15,All,Yes,Northern
+153,Khajjiar Lake,Dalhousie,Himachal Pradesh,Lake,4.5,Unknown,1.5,0,,Nature,Yes,0.1,Morning,No,Northern
+154,Key Monastery,Spiti Valley,Himachal Pradesh,Monastery,4.8,1100,1,0,,Religious,Yes,0.025,Morning,No,Northern
+155,Great Himalayan National Park,Kullu,Himachal Pradesh,National Park,4.5,1984,3,50,,Wildlife,Yes,0.2,All,No,Northern
+156,Chamera Lake,Chamba,Himachal Pradesh,Lake,4.4,Unknown,2,0,,Recreational,Yes,0.01,Morning,No,Northern
+157,Sangla Valley,Kinnaur,Himachal Pradesh,Valley,4.5,Unknown,2,0,,Nature,Yes,0.01,Morning,No,Northern
+158,Kangra Fort,Kangra,Himachal Pradesh,Fort,4.4,400,2,150,,Historical,Yes,0.1,All,Yes,Northern
+159,Tea Gardens,Palampur,Himachal Pradesh,Tea Plantation,4.6,1950,1.5,0,,Agricultural,Yes,0.015,Morning,Yes,Northern
+160,Prashar Lake,Mandi,Himachal Pradesh,Lake,4.6,1400,1.5,0,,Nature,Yes,0.01,Morning,No,Northern
+161,Paragliding Site,Bir Billing,Himachal Pradesh,Adventure Sport,4.8,2005,2,2500,,Adventure,Yes,0.01,All,No,Northern
+162,Triund Trek,McLeod Ganj,Himachal Pradesh,Trekking,4.8,Unknown,5,0,,Adventure,Yes,0.01,Morning,Yes,Northern
+163,Manikaran Sahib,Manikaran,Himachal Pradesh,Gurudwara,4.6,1980,1,0,,Religious,Yes,1.3,Morning,No,Northern
+164,Hatu Peak,Narkanda,Himachal Pradesh,Viewpoint,4.5,Unknown,2,0,,Nature,Yes,1.1,All,Yes,Northern
+165,Barot Valley,Barot,Himachal Pradesh,Valley,4.7,Unknown,2,0,,Nature,Yes,1.2,Morning,No,Northern
+166,Serolsar Lake,Shoja,Himachal Pradesh,Lake,4.4,Unknown,2.5,0,,Nature,Yes,0.9,Morning,No,Northern
+167,Kufri Fun World,Kufri,Himachal Pradesh,Ski Resort,3.8,1975,5,1500,,Recreational,Yes,0.1,All,Yes,Northern
+168,Naini Lake,Nainital,Uttarakhand,Lake,4.2,Unknown,1.5,0,,Nature,Yes,0.01,Morning,Yes,Northern
+169,Laxman Jhula,Rishikesh,Uttarakhand,Suspension Bridge,4.4,1939,1,0,,Cultural,Yes,0.03,Morning,Yes,Northern
+170,Har Ki Pauri,Haridwar,Uttarakhand,Ghat,4.5,Unknown,1,0,,Religious,Yes,0.025,All,Yes,Northern
+171,Robber's Cave,Dehradun,Uttarakhand,Cave,4.5,Unknown,1.5,25,,Nature,Yes,0.01,Morning,Yes,Northern
+172,Kempty Falls,Mussoorie,Uttarakhand,Waterfall,4.2,Unknown,1.5,15,,Nature,Yes,0.55,Morning,Yes,Northern
+173,Auli Ski Resort,Auli,Uttarakhand,Ski Resort,4.5,1990,3,0,,Adventure,Yes,0.01,Morning,No,Northern
+174,Badrinath Temple,Badrinath,Uttarakhand,Temple,4.8,-820,1,0,,Religious,No,0.29,All,No,Northern
+175,Binsar Wildlife Sanctuary,Almora,Uttarakhand,Wildlife Sanctuary,4.3,1988,2,150,,Wildlife,Yes,0.01,All,No,Northern
+176,Chaubatia Gardens,Ranikhet,Uttarakhand,Orchard,4,1868,1,50,,Recreational,Yes,0.025,All,No,Northern
+177,Jim Corbett National Park,Jim Corbett,Uttarakhand,National Park,4.4,1936,3,100,,Wildlife,Yes,0.3,All,Yes,Northern
+178,Gangotri Temple,Uttarkashi,Uttarakhand,Temple,4.8,1751,1,0,,Religious,No,0.05,All,No,Northern
+179,Tungnath Temple,Chopta,Uttarakhand,Temple,4.8,751,2,0,,Religious,No,0.09,All,No,Northern
+180,Valley of Flowers,Joshimath,Uttarakhand,National Park,4.7,1982,5,150,,Nature,Yes,0.035,Morning,No,Northern
+181,Taj Mahal,Agra,Uttar Pradesh,Mausoleum,4.6,1632,2,50,Friday,Historical,Yes,2.25,Morning,Yes,Central
+182,Kashi Vishwanath Temple,Varanasi,Uttar Pradesh,Temple,4.7,Unknown,1,0,,Religious,No,0.9,All,Yes,Central
+183,Bara Imambara,Lucknow,Uttar Pradesh,Monument,4.4,1784,1.5,50,Monday,Historical,No,0.45,All,Yes,Central
+184,Krishna Janmabhoomi,Mathura,Uttar Pradesh,Temple,4.7,Unknown,1,0,,Religious,No,0.13,All,Yes,Central
+185,Ram Janmabhoomi,Ayodhya,Uttar Pradesh,Religious Site,4.8,Unknown,1,0,,Religious,No,0.025,All,Yes,Central
+186,Banke Bihari Temple,Vrindavan,Uttar Pradesh,Temple,4.8,1864,1,0,,Religious,No,0.37,All,Yes,Central
+187,Triveni Sangam,Allahabad,Uttar Pradesh,Confluence,4.5,Unknown,1,0,,Religious,Yes,0.09,Morning,Yes,Central
+188,Jhansi Fort,Jhansi,Uttar Pradesh,Fort,4.4,1613,1.5,15,,Historical,Yes,0.25,All,Yes,Central
+189,Dhamek Stupa,Sarnath,Uttar Pradesh,Monument,4.6,-500,1,5,,Historical,Yes,0.065,All,Yes,Central
+190,Buland Darwaza,Fatehpur Sikri,Uttar Pradesh,Monument,4.4,1571,2,40,,Historical,Yes,0.07,Afternoon,Yes,Central
+191,Okhla Bird Sanctuary,Noida,Uttar Pradesh,Bird Sanctuary,4.3,1990,1.5,30,,Wildlife,Yes,0.035,All,Yes,Central
+192,Aligarh Fort,Aligarh,Uttar Pradesh,Fort,4.1,1524,1,20,,Historical,Yes,0.0165,Afternoon,Yes,Central
+193,Augarnath Temple,Meerut,Uttar Pradesh,Temple,4.8,Unknown,1,0,,Religious,No,0.045,All,Yes,Central
+194,Allen Forest Zoo,Kanpur,Uttar Pradesh,Zoo,4.2,1971,2,150,Monday,Wildlife,Yes,0.21,All,Yes,Central
+195,Dal Lake,Srinagar,Jammu and Kashmir,Lake,4.6,Unknown,2,0,,Nature,Yes,0.15,Morning,Yes,Northern
+196,Pangong Tso,Leh,Ladakh,Lake,4.9,Unknown,2,20,,Nature,Yes,0.15,Morning,Yes,Northern
+197,Betaab Valley,Pahalgam,Jammu and Kashmir,Valley,4.6,Unknown,2,100,,Nature,Yes,0.11,All,No,Northern
+198,Vaishno Devi,Jammu,Jammu and Kashmir,Temple,4.7,Unknown,5,0,,Religious,No,0.55,All,Yes,Northern
+199,Patnitop Height,Udhampur,Jammu and Kashmir,Hill,4.1,Unknown,2,0,,Recreational,Yes,0.01,All,No,Northern
+200,Amarnath Cave,Anantnag,Jammu and Kashmir,Temple,4.5,Unknown,6,0,,Religious,Yes,0.11,All,No,Northern
+201,Thiksey Monastery,Leh,Ladakh,Monastery,4.7,1430,1.5,20,,Religious,No,0.05,All,Yes,Northern
+202,Nubra Valley,Nubra Valley,Ladakh,Valley,4.5,Unknown,2,0,,Nature,Yes,0.1,All,No,Northern
+203,Kargil War Memorial,Kargil,Ladakh,War Memorial,4.8,24,1,0,,Historical,Yes,0.011,All,No,Northern
+204,Diskit Monastery,Diskit,Ladakh,Monastery,4.7,1351,1,20,,Religious,No,0.015,Morning,No,Northern
+205,Kishtwar National Park,Kishtwar,Jammu and Kashmir,National Park,4.3,1981,3,100,,Wildlife,Yes,0.01,All,No,Northern
+206,Hemis National Park,Hemis,Ladakh,National Park,4.4,1981,4,20,,Wildlife,Yes,0.02,All,No,Northern
+207,Dras War Memorial,Dras,Ladakh,War Memorial,4.8,Unknown,1,0,,Historical,Yes,0.012,All,No,Northern
+208,Magnetic Hill,Leh,Ladakh,Gravity Hill,3.7,Unknown,0.5,0,,Nature,Yes,0.1,All,Yes,Northern
+209,Khardung La Pass,Leh,Ladakh,Hill,4.5,Unknown,1,0,,Adventure,Yes,0.05,Afternoon,Yes,Northern
+210,Thiksey Monastery,Leh,Ladakh,Monastery,4.7,1430,1.5,30,,Religious,No,0.05,All,Yes,Northern
+211,Prem Mandir,Vrindavan,Uttar Pradesh,Temple,4.8,2012,1.5,0,,Religious,Yes,0.49,Evening,Yes,Central
+212,Kirti Mandir,Porbandar,Uttar Pradesh,Memorial,4.8,1950,1,0,,Historical,Yes,0.03,Morning,Yes,Central
+213,Nand Gaon,Mathura,Uttar Pradesh,Village,4.1,Unknown,1,0,,Cultural,Yes,0.01,Morning,Yes,Central
+214,Barsana Mandir,Mathura,Uttar Pradesh,Temple,4.8,Unknown,1,0,,Religious,Yes,0.1,Morning,Yes,Central
+215,Tiger Hill,Darjeeling,West Bengal,Sunrise Point,4.5,Unknown,1,0,,Nature,Yes,0.025,All,No,Eastern
+216,Jaldapara National Park,Siliguri,West Bengal,Wildlife Sanctuary,4.4,1941,3,250,,Wildlife,Yes,0.035,All,Yes,Eastern
+217,Sundarbans National Park,Sundarbans,West Bengal,National Park,4.4,1984,4,60,,Wildlife,Yes,0.065,All,No,Eastern
+218,Digha Beach,Digha,West Bengal,Beach,4.5,Unknown,1.5,0,,Recreational,Yes,0.09,Morning,No,Eastern
+219,Hazarduari Palace,Murshidabad,West Bengal,Palace,4.5,1837,1.5,10,Friday,Historical,Yes,0.18,Morning,Yes,Eastern
+220,Kankalitala Temple,Bolpur,West Bengal,Temple,4.7,Unknown,0.5,0,,Religious,No,0.045,All,Yes,Eastern
+221,Hangseswari Temple,Hooghly,West Bengal,Temple,4.6,1814,0.5,0,,Architectural,No,0.07,All,Yes,Eastern
+222,Gorumara National Park,Jalpaiguri,West Bengal,National Park,4.4,1949,3,100,,Wildlife,Yes,0.07,All,Yes,Eastern
+223,Cooch Behar Palace,Cooch Behar,West Bengal,Palace,4.5,1887,1,20,Friday,Historical,Yes,0.09,All,Yes,Eastern
+224,Ayodhya Hills,Purulia,West Bengal,Hill,4.5,Unknown,2.5,0,,Nature,Yes,0.15,All,No,Eastern
+225,Jagannath Temple,Puri,Odisha,Temple,4.7,12th century,2,0,,Religious,No,1,All,Yes,Eastern
+226,Sun Temple,Konark,Odisha,Temple,4.7,1250,1.5,40,,Historical,Yes,0.83,All,Yes,Eastern
+227,Lingaraj Temple,Bhubaneswar,Odisha,Temple,4.6,11th century,1,0,,Religious,No,0.35,All,Yes,Eastern
+228,Khandadhar Waterfall,Rourkela,Odisha,Waterfall,4.5,Unknown,1.5,0,,Nature,Yes,1.2,All,No,Eastern
+229,Barabati Fort,Cuttack,Odisha,Fort,4.5,-987,1,0,,Historical,Yes,0.13,All,Yes,Eastern
+230,Hirakud Dam,Sambalpur,Odisha,Dam,4.5,1957,1,0,,Engineering Marvel,Yes,0.01,All,No,Eastern
+231,Chilika Lake,Chilika,Odisha,Lake,3.9,Unknown,2,0,,Nature,Yes,0.1,Morning,Yes,Eastern
+232,Tara Tarini Temple,Berhampur,Odisha,Temple,4.6,Ancient,1,0,,Religious,No,0.01,All,Yes,Eastern
+233,Badaghagara Waterfall,Keonjhar,Odisha,Waterfall,4.3,Unknown,1,0,,Nature,Yes,0.018,Morning,No,Eastern
+234,Chandipur Beach,Balasore,Odisha,Beach,4.2,Unknown,1.5,0,,Recreational,Yes,0.014,Morning,Yes,Eastern
+235,Sanaghagara Waterfall,Kendujhar,Odisha,Waterfall,4.4,Unknown,1,0,,Nature,Yes,0.055,All,No,Eastern
+236,Marina Beach,Chennai,Tamil Nadu,Beach,3.9,Unknown,1.5,0,,Recreational,Yes,0.1,Morning,Yes,Southern
+237,Meenakshi Amman Temple,Madurai,Tamil Nadu,Temple,4.7,6th century AD,2,0,,Religious,No,0.65,All,Yes,Southern
+238,Ramanathaswamy Temple,Rameswaram,Tamil Nadu,Temple,4.6,12th century,1.5,0,,Religious,No,0.01,All,No,Southern
+239,Vivekananda Rock Memorial,Kanyakumari,Tamil Nadu,Memorial,4.6,1970,1,20,,Historical,No,0.47,Morning,Yes,Southern
+240,Ooty Lake,Ooty,Tamil Nadu,Lake,4.1,1824,1,10,,Recreational,Yes,0.61,Morning,Yes,Southern
+241,Marudamalai Temple,Coimbatore,Tamil Nadu,Temple,4.7,12th century,1,0,,Religious,No,0.3,All,Yes,Southern
+242,Kodaikanal Lake,Kodaikanal,Tamil Nadu,Lake,3.9,1863,2,0,,Recreational,Yes,0.1,Morning,No,Southern
+243,Brihadeeswarar Temple,Thanjavur,Tamil Nadu,Temple,4.8,110,1.5,0,,Religious,No,0.35,All,Yes,Southern
+244,Shore Temple,Mahabalipuram,Tamil Nadu,Temple,4.6,7th century,1,40,,Historical,No,0.09,All,Yes,Southern
+245,Yercaud Lake,Yercaud,Tamil Nadu,Lake,4.2,Unknown,1,0,,Recreational,Yes,0.019,Morning,No,Southern
+246,Nellaiappar Temple,Tirunelveli,Tamil Nadu,Temple,4.6,7th century,1,0,,Religious,No,0.16,All,Yes,Southern
+247,Nataraja Temple,Chidambaram,Tamil Nadu,Temple,4.7,10th century,1,0,,Religious,No,0.28,All,Yes,Southern
+248,Kanaka Durga Temple,Vijayawada,Andhra Pradesh,Temple,4.7,Unknown,1,0,,Religious,No,0.44,All,Yes,Southern
+249,Rishikonda Beach,Visakhapatnam,Andhra Pradesh,Beach,4.5,Unknown,1.5,0,,Recreational,Yes,0.39,Morning,Yes,Southern
+250,Mallikarjuna Swamy Temple,Srisailam,Andhra Pradesh,Temple,4.7,14th century,1,0,,Religious,No,0.49,All,No,Southern
+251,Papikondalu,Rajahmundry,Andhra Pradesh,Hill,4.3,Unknown,2,0,,Nature,Yes,0.032,All,Yes,Southern
+252,Lepakshi,Anantapur,Andhra Pradesh,Site,4.6,16th century,1.5,0,,Historical,Yes,0.075,All,No,Southern
+253,Belum Caves,Kurnool,Andhra Pradesh,Cave,4.4,Unknown,1.5,65,,Natural Wonder,Yes,0.11,Afternoon,Yes,Southern
+254,Amaravathi Temple,Amravati,Andhra Pradesh,Temple,4.7,Unknown,1,0,,Religious,No,0.041,All,Yes,Southern
+255,Uppalapadu Bird Sanctuary,Guntur,Andhra Pradesh,Bird Sanctuary,4.4,Unknown,1,10,,Wildlife,Yes,0.7,All,Yes,Southern
+256,Gandikota Fort,Kadapa,Andhra Pradesh,Fort,4.5,12th century,1.5,0,,Historical,Yes,0.015,Morning,No,Southern
+257,Prasanthi Nilayam,Puttaparthi,Andhra Pradesh,Spiritual Center,4.7,1950,1,0,,Religious,Yes,0.12,All,Yes,Southern
+258,Simhachalam Temple,Vizianagaram,Andhra Pradesh,Temple,4.7,198,1,0,,Religious,No,0.59,All,Yes,Southern
+259,Kailasagiri,Visakhapatnam,Andhra Pradesh,Hill,4.5,Unknown,2,0,,Recreational,Yes,0.019,All,Yes,Southern
+260,Submarine Museum,Visakhapatnam,Andhra Pradesh,Museum,4.6,22,1,40,,Historical,Yes,0.49,All,Yes,Southern
+261,Borra Caves,Visakhapatnam,Andhra Pradesh,Cave,4.5,Unknown,2,60,,Natural Wonder,Yes,0.31,Afternoon,No,Southern
+262,War Memorial,Visakhapatnam,Andhra Pradesh,War Memorial,4.6,Unknown,1,0,,Historical,Yes,0.059,All,Yes,Southern
+263,Indira Gandhi Zoological Park,Visakhapatnam,Andhra Pradesh,Zoo,4.1,1977,2,20,Monday,Wildlife,Yes,0.25,Afternoon,Yes,Southern
+264,Matsyadarshini Aquarium,Visakhapatnam,Andhra Pradesh,Aquarium,3.8,Unknown,1,20,,Recreational,Yes,0.03,All,Yes,Southern
+265,Visakha Museum,Visakhapatnam,Andhra Pradesh,Museum,4.3,1991,1,10,,Cultural,Yes,0.065,All,Yes,Southern
+266,Nathula Pass,Gangtok,Sikkim,Hill,4.3,Unknown,2,20,,Historical,Yes,0.15,Afternoon,Yes,Eastern
+267,Pemayangtse Monastery,Pelling,Sikkim,Monastery,4.6,1705,1,20,,Religious,No,0.015,Morning,No,Eastern
+268,Char Dham,Namchi,Sikkim,Religious Complex,4.7,211,2,50,,Religious,No,0.12,All,Yes,Eastern
+269,Rumtek Monastery,Gangtok,Sikkim,Monastery,4.6,1960s,1,10,,Religious,No,0.035,Morning,Yes,Eastern
+270,Buddha Park,Ravangla,Sikkim,Park,4.8,213,1,50,,Cultural,Yes,0.1,All,Yes,Eastern
+271,Baba Harbhajan Singh Temple,Gangtok,Sikkim,Temple,4.7,1967,1,0,,Religious,No,0.075,All,Yes,Eastern
+272,Tsomgo Lake,Gangtok,Sikkim,Lake,4.5,Unknown,2,0,,Nature,Yes,0.15,Morning,Yes,Eastern
+273,Kamakhya Temple,Guwahati,Assam,Temple,4.6,Unknown,2,0,,Religious,No,0.21,All,Yes,North Eastern
+274,Kaziranga National Park,Kaziranga,Assam,National Park,4.5,1905,3,650,,Wildlife,No,0.068,Morning,No,North Eastern
+275,Umananda Island,Guwahati,Assam,Island,4.1,Unknown,1,0,,Nature,Yes,0.01,Morning,Yes,North Eastern
+276,Sivasagar Sivadol,Sivasagar,Assam,Temple,4.7,1734,1,0,,Historical,Yes,0.065,All,No,North Eastern
+277,Majuli Island,Majuli,Assam,River Island,4.7,Unknown,2,0,,Cultural,Yes,0.01,Morning,No,North Eastern
+278,Manas National Park,Manas,Assam,National Park,4.6,1990,3,500,,Wildlife,Yes,0.19,Morning,No,North Eastern
+279,Hayagriva Madhava Temple,Hajo,Assam,Temple,4.5,Unknown,1,0,,Religious,Yes,0.9,All,No,North Eastern
+280,Pobitora Wildlife Sanctuary,Guwahati,Assam,Wildlife Sanctuary,4.4,1987,2,500,,Wildlife,Yes,0.037,All,Yes,North Eastern
+281,Tawang Monastery,Tawang,Arunachal Pradesh,Monastery,4.7,1680,2,0,,Religious,No,0.032,Morning,No,North Eastern
+282,Ujjayanta Palace,Agartala,Tripura,Palace,4.5,1901,1.5,10,Monday,Historical,Yes,0.035,All,Yes,North Eastern
+283,Dumboor Lake,Dumboor,Tripura,Lake,4.5,Unknown,1,0,,Nature,Yes,0.01,Morning,No,North Eastern
+284,Unakoti Rock Carvings,Unakoti,Tripura,Rock Carvings,4.5,700,1.5,20,,Historical,Yes,0.025,Morning,No,North Eastern
+285,Chitrakote Falls,Bastar,Chhattisgarh,Waterfall,4.6,Unknown,1.5,0,,Nature,Yes,0.19,Morning,No,Central
+286,Dzükou Valley,Dzükou Valley,Nagaland,Valley,4.7,Unknown,3,0,,Trekking,Yes,0.01,Afternoon,No,North Eastern
+287,Promenade Beach,Puducherry,Puducherry,Beach,4.5,Unknown,1,0,,Recreational,Yes,0.09,Morning,Yes,Southern
+288,Auroville,Auroville,Puducherry,Township,4.1,1968,2,0,,Cultural,Yes,0.035,All,Yes,Southern
+289,Paradise Beach,Puducherry,Puducherry,Beach,4.5,Unknown,1,200,,Recreational,Yes,0.015,Morning,Yes,Southern
+290,Cellular Jail,Port Blair,Andaman and Nicobar Islands,Landmark,4.7,1906,1.5,30,Monday,Historical,Yes,0.12,Afternoon,Yes,Southern
+291,Radhanagar Beach,Havelock Island,Andaman and Nicobar Islands,Beach,4.8,Unknown,1,0,,Nature,Yes,0.09,Morning,No,Southern
+292,Bharatpur Beach,Neil Island,Andaman and Nicobar Islands,Beach,4.5,Unknown,1,0,,Nature,Yes,0.04,Morning,No,Southern
+293,Limestone Caves,Baratang Island,Andaman and Nicobar Islands,Natural Feature,4.4,Unknown,1.5,250,,Nature,Yes,0.015,Morning,No,Southern
+294,Naida Caves,Diu,Daman and Diu,Cave,4.5,Unknown,1,0,,Nature,Yes,0.6,Afternoon,No,Western
+295,Diu Fort,Diu,Daman and Diu,Fort,4.6,1535,1.5,0,,Historical,Yes,1.2,Afternoon,No,Western
+296,Baba Baidyanath Temple,Deoghar,Jharkhand,Temple,4.7,Unknown,1,0,,Religious,Yes,1.8,All,Yes,Eastern
+297,Pahari Mandir,Ranchi,Jharkhand,Temple,4.6,Unknown,1,0,,Religious,Yes,0.13,All,Yes,Eastern
+298,Mahabodhi Temple,Bodh Gaya,Bihar,Temple,4.7,-260,1.5,0,,Religious,Yes,0.2,All,Yes,Eastern
+299,Sanjay Gandhi Biological Park,Patna,Bihar,Zoo,4.3,Unknown,2.5,30,,Wildlife,Yes,0.5,All,Yes,Eastern
+300,Takhat Shri Harimandir Ji Patna Sahib,Patna,Bihar,Gurudwara,4.7,Unknown,1,0,,Religious,Yes,0.25,All,Yes,Eastern
+301,Budhha Smriti Park,Patna,Bihar,Park,4.4,Unknown,1,10,,Cultural,Yes,0.31,All,Yes,Eastern
+302,Kingdom of Dreams,Gurugram,Haryana,Entertainment,4.4,2010,3,1100,Monday,Entertainment,Yes,0.3,Afternoon,Yes,Northern
+303,Ambience Mall,Gurugram,Haryana,Mall,4.6,Unknown,2,0,,Shopping,Yes,1.2,Afternoon,Yes,Northern
+304,DLF CyberHub,Gurugram,Haryana,Commercial Complex,4.7,Unknown,2,0,,Entertainment,Yes,0.71,Afternoon,Yes,Northern
+305,Gurudwara Bangla Sahib,New Delhi,Delhi,Gurudwara,4.8,Unknown,1,0,,Religious,Yes,1.05,All,Yes,Northern
+306,Kedarnath,Kedarnath,Uttarakhand,Temple,4.8,Unknown,1.5,0,,Religious,No,2,All,No,Northern
+307,DLF Mall of India,Noida,Uttar Pradesh,Mall,4.6,2016,2,0,,Shopping,Yes,1.5,All,Yes,Central
+308,The Grand Venice Mall,Greater Noida,Uttar Pradesh,Mall,4.2,Unknown,2,0,,Shopping,Yes,0.45,All,Yes,Central
+309,Wonderla Amusement Park,Bengaluru,Karnataka,Amusement Park,4.5,2005,4,890,,Entertainment,Yes,0.95,All,Yes,Southern
+310,Nandankanan Zoological Park,Bhubaneswar,Odisha,Zoo,4.4,1960,3,50,Monday,Wildlife,Yes,0.81,Afternoon,Yes,Eastern
+311,Orion Mall,Bengaluru,Karnataka,Mall,4.5,2012,2,0,,Shopping,Yes,1.8,All,Yes,Southern
+312,Inorbit Mall Cyberabad,Hyderabad,Telangana,Mall,4.5,2004,2,0,,Shopping,Yes,1.2,All,Yes,Southern
+313,Jama Masjid,New Delhi,Delhi,Mosque,4.5,1656,1,0,,Historical,Yes,0.49,All,Yes,Northern
+314,Ramanathaswamy Temple,Rameswaram,Tamil Nadu,Temple,4.7,Unknown,1.5,0,,Religious,No,0.1,All,Yes,Southern
+315,Buddh International Circuit,Greater Noida,Uttar Pradesh,Race Track,4.6,2011,2,1500,Sunday,Sports,Yes,7.4,All,Yes,Central
+316,Phoenix Palassio,Lucknow,Uttar Pradesh,Mall,4.6,2020,2,0,,Shopping,Yes,0.35,All,Yes,Central
+317,LuLu International Shopping Mall,Kochi,Kerala,Mall,4.6,2013,3,0,,Shopping,Yes,1.9,All,Yes,Southern
+318,Rail Museum,New Delhi,Delhi,Museum,4.4,1977,2,50,Monday,Cultural,Yes,0.24,Morning,Yes,Northern
+319,Living Root Bridge,Cherrapunji,Meghalaya,Natural Feature,4.6,Unknown,2,0,,Nature,Yes,0.06,Morning,No,North Eastern
+320,Akshardham,Gandhinagar,Gujarat,Temple,4.6,1992,3,0,Monday,Religious,No,0.18,All,Yes,Western
+321,Agra Fort,Agra,Uttar Pradesh,Fort,4.5,1565,2,40,,Historical,Yes,1.3,Afternoon,Yes,Central
+322,Madhya Pradesh Tribal Museum,Bhopal,Madhya Pradesh,Museum,4.7,2013,2,10,Monday,Cultural,Yes,0.15,All,Yes,Central
+323,City Palace,Jaipur,Rajasthan,Palace,4.4,1727,2,200,,Historical,Yes,0.51,Morning,Yes,Northern
+324,Albert Hall Museum,Jaipur,Rajasthan,Museum,4.5,1887,2,200,,Historical,Yes,0.63,All,Yes,Northern
