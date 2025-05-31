@@ -11,9 +11,6 @@ try:
     # Hero section
     home.Hero(main)
 
-    # About section
-    home.About(main)
-
     # Personalize section
     home.Personalize(main)
 
@@ -22,6 +19,9 @@ try:
 
     # Explore section
     home.Explore(main)
+
+    # About section
+    home.About(main)
 
 except Exception as e:
     raise e

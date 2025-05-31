@@ -3,63 +3,104 @@ from streamlit.delta_generator import DeltaGenerator
 
 
 def Hero(c: DeltaGenerator):
-    c.title("YourStory - Hackathon | by snowflake")
-    c.write("By Hephaestus team")
-    c.divider()
-    c.header("Discover the Soul of India!")
-    c.write(
-        "From ancient traditions to modern expressions, experience the heartbeat of India like never before."
+    c.title("Discover the Soul of India")
+    c.markdown(
+        """
+        From _ancient traditions_ to _modern expressions_, experience the **heartbeat of India** like never before.
+
+        Let your journey unfold through rich **colors**, **sounds**, **flavors**, and **stories** that have shaped a civilization for millennia.
+        """
     )
-    if c.button("Start Your Journey &#8594;"):
-        st.switch_page("pages/personalize.py")
+
+    if c.button("Start Exploring →", type="primary"):
+        st.switch_page("pages/culture.py")
+
     c.divider()
 
 
 def About(c: DeltaGenerator):
-    c.header("Why Indian Culture?")
-    c.write(
-        "India is more than a country — it’s a living mosaic of languages, festivals, philosophies, and stories that have shaped the world for thousands of years. This platform is a tribute to its timeless traditions, colorful diversity, and modern vibrance. Whether you’re here to learn, explore, or reconnect, welcome to the journey."
+    c.subheader("Why Indian Culture?")
+    c.markdown(
+        """
+        India is more than a country — it’s a **living mosaic** of languages, festivals, philosophies, and artistic traditions.
+
+        With over **4,000 years of recorded history**, India's contributions to global thought, science, and culture are profound. This platform is a tribute to its **timeless heritage**, **diverse people**, and **modern vibrancy**.
+        """
     )
-    if c.button("Learn More About Us &#8594;"):
+
+    if c.button("Learn More About Us →", type="tertiary"):
         st.switch_page("pages/about.py")
-    c.divider()
 
 
 def Personalize(c: DeltaGenerator):
-    c.header("Make It Yours")
-    c.write(
-        "Want to explore culture based on your interests? Whether it's music, food, spirituality, or festivals, we'll craft your cultural journey just for you."
+    c.subheader("Not sure where to begin?")
+    c.markdown(
+        "Make It Yours, Let us help you **craft a personalized journey** based on your interests and preferences."
     )
-    if c.button("Personalize My Journey &#8594;"):
+
+    c.markdown(
+        """
+        Want to explore culture based on what excites you most? Whether it's **music**, **food**, **spirituality**, or **festivals**, we’ll create a journey tailored to your interests.
+
+        - Choose your focus: art, history, cuisine, traditions
+        - Receive curated suggestions across states and seasons
+        - Get inspired by real stories and meaningful insights
+        """
+    )
+
+    if c.button("Customize My Journey →", type="tertiary"):
         st.switch_page("pages/personalize.py")
+
     c.divider()
 
 
 def Culture(c: DeltaGenerator):
-    c.header("A Tapestry of Traditions")
-    c.write(
-        "Dive into India’s rich culture — from ancient temples to Bollywood beats, from yoga to vibrant crafts. Explore art, cuisine, history, and daily life across every state and region."
+    c.subheader("A Tapestry of Traditions")
+    c.markdown(
+        """
+        Discover how ancient rituals coexist with contemporary innovation. From **yoga and temple architecture** to **Bollywood cinema** and **modern design**, Indian culture is layered, dynamic, and ever-evolving.
+
+        - Explore regional crafts, dance forms, and musical traditions
+        - Learn about cultural festivals and seasonal rituals
+        - Dive into food culture, from street snacks to royal cuisine
+        """
     )
-    if c.button("Explore Indian Culture &#8594;"):
+
+    if c.button("Explore Indian Culture →", type="tertiary"):
         st.switch_page("pages/culture.py")
+
     c.divider()
 
 
 def Explore(c: DeltaGenerator):
-    c.header("Experience India, One Story at a Time")
-    c.write(
-        "Explore iconic places, discover lesser-known gems, and uncover real stories from people who live the culture every day. Your window into India’s living heritage awaits."
+    c.subheader("Experience India, One Story at a Time")
+    c.markdown(
+        """
+        Go beyond landmarks — explore the **people, history, and everyday life** that give meaning to each place.
+
+        - Discover iconic sites and hidden gems across the country
+        - Read authentic stories from locals, artists, and travelers
+        - Understand the deeper significance behind cultural practices
+        """
     )
-    if c.button("Start Exploring &#8594;"):
+
+    if c.button("Start Exploring →", type="tertiary"):
         st.switch_page("pages/explore.py")
+
+    c.divider()
 
 
 def Sidebar(c: DeltaGenerator):
-    c.write("## Open link in new tab")
-    c.link_button("Go to Home page &#8599;", "/", use_container_width=True)
-    c.link_button("Go to About page &#8599;", "/about", use_container_width=True)
-    c.link_button(
-        "Go to Personalize page &#8599;", "/personalize", use_container_width=True
+    c.subheader("Quick Navigation")
+    c.markdown("Use the links below to jump directly to each section:")
+
+    c.link_button("Home Page ↗", "/", use_container_width=True)
+    c.link_button("About Us ↗", "/about", use_container_width=True)
+    c.link_button("Personalize ↗", "/personalize", use_container_width=True)
+    c.link_button("Culture Hub ↗", "/culture", use_container_width=True)
+    c.link_button("Explore ↗", "/explore", use_container_width=True)
+
+    c.markdown("---")
+    c.markdown(
+        "**Tip:** Bookmark the pages you're most interested in for easy reference during your journey."
     )
-    c.link_button("Go to Culture page &#8599;", "/culture", use_container_width=True)
-    c.link_button("Go to Explore page &#8599;", "/explore", use_container_width=True)

@@ -1,3 +1,4 @@
+import pandas as pd
 import streamlit as st
 from streamlit.delta_generator import DeltaGenerator
 
@@ -28,6 +29,12 @@ Post-independence, the nation transformed rapidly — developing its space progr
 > “At the stroke of the midnight hour, when the world sleeps, India will awake to life and freedom.”
 > — Jawaharlal Nehru, 15 August 1947"""
     )
+
+    c.subheader("Map of India")
+    expander = c.expander("Map of india")
+    df = pd.DataFrame({"lat": [20.5937], "lon": [78.9629]})
+
+    expander.map(df, zoom=4)
     c.divider()
 
 
