@@ -6,7 +6,8 @@ try:
     main, side_main = Layout()
    
     # Personalize page content  
-    personalize.Quiz(main)
-
+    personalize.Quiz(
+        main
+    )
 except Exception as e:
     raise e

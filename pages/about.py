@@ -1,5 +1,5 @@
-from components.common import Layout 
-from components import about 
+from components import about
+from components.common import Layout
 
 try:
     # Getting Placeholders
@@ -13,10 +13,6 @@ try:
         content[q] = a
 
     # About Page content
-    about.About(
-        main, 
-        side_main, 
-        content
-    )
+    about.About(main, side_main, content)
 except Exception as e:
     raise e

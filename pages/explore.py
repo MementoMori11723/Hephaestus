@@ -1,4 +1,14 @@
-import streamlit as st
-from components.common import Layout 
+from components import explore
+from components.common import Layout
 
-st.write("Explore")
+try:
+    # Getting Placeholders
+    main, side_main = Layout()
+
+    explore.Sidebar(side_main)
+
+    explore.Flavors(main)
+
+    explore.Places(main)
+except Exception as e:
+    raise e

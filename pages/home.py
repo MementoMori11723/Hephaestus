@@ -1,5 +1,5 @@
+from components import home
 from components.common import Layout
-from components import home 
 
 try:
     # Getting Placeholders
@@ -7,7 +7,7 @@ try:
 
     # Sidebar menu
     home.Sidebar(side_main)
-    
+
     # Hero section
     home.Hero(main)
 

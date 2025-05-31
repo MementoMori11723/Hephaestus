@@ -1,16 +1,20 @@
 import streamlit as st
 from streamlit.delta_generator import DeltaGenerator
 
+
 def navbar() -> None:
     pass
+
 
 def footer() -> None:
     st.divider()
     st.write("This is footer!")
 
+
 def side_footer() -> None:
     st.sidebar.divider()
-    st.sidebar.write("This is sidebar footer!") 
+    st.sidebar.write("This is sidebar footer!")
+
 
 def Layout() -> tuple[DeltaGenerator, DeltaGenerator]:
     # Navbar Sections
