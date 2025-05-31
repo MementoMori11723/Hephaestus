@@ -67,13 +67,8 @@ def Music(c: DeltaGenerator) -> None:
         if top_columns[i].button("Click to preview", key=i, use_container_width=True):
             music_popup(top_music_video_links[i])
 
-    c.subheader("Here is a list of other songs")
-    expander = c.expander("Other Songs", expanded=True)
-    for v in music_data.iloc[5:]["title"]:
-        expander.write(f"- {v}")
-
-    c.subheader("Take a peak at the data")
-    m_expander = c.expander("Music Data")
+    c.write("#### Take a peak at the data")
+    m_expander = c.expander("Music Data", expanded=True)
     m_expander.bar_chart(
         music_data,
         x="title",
@@ -117,34 +112,8 @@ def Most_visited(c: DeltaGenerator) -> None:
             use_container_width=True,
         )
 
-    c.subheader("Here is a list of other places to visit")
-    expander = c.expander("Other Places", expanded=True)
-    other_places = (
-        places_data[["place_name", "state", "rating", "significance", "zone"]]
-        .iloc[5:]
-        .tail(15)
-    )
-    e_columns = expander.columns(5)
-    for idx, v in enumerate(other_places["place_name"]):
-        state = other_places.loc[other_places["place_name"] == v, "state"]
-        state = str(state.iloc[0])
-
-        rating = other_places.loc[other_places["place_name"] == v, "rating"]
-        rating = float(rating.iloc[0])
-
-        significance = other_places.loc[other_places["place_name"] == v, "significance"]
-        significance = str(significance.iloc[0])
-
-        zone = other_places.loc[other_places["place_name"] == v, "zone"]
-        zone = str(zone.iloc[0])
-
-        e_columns[idx % 5].write(
-            f"- _**{v}**_\n\t- [State](#): {state}\n\t- [Rating](#): {rating}\n\t- [Significance](#): {significance}\n\t- [Zone](#): {zone}"
-        )
-
-
     c.subheader("Take a peek at the data")
-    p_expander = c.expander("Places Data")
+    p_expander = c.expander("Places Data", expanded=True)
     p_expander.write("#### Types of places vs Region")
     p_expander.bar_chart(
         places_data.head(30).sort_values(by="state", ascending=False),
@@ -176,9 +145,13 @@ def Flavors_of_india(c: DeltaGenerator) -> None:
     )
 
     flavors_data = Flavors().sample(frac=1)
-    top_recipes = flavors_data.sort_values(
-        by=["TotalTimeInMins", "Ingredient-count", "is_vegetarian"]
-    ).sample(frac=1).head(5)
+    top_recipes = (
+        flavors_data.sort_values(
+            by=["TotalTimeInMins", "Ingredient-count", "is_vegetarian"]
+        )
+        .sample(frac=1)
+        .head(5)
+    )
 
     columns = c.columns(5, gap="medium", vertical_alignment="bottom", border=True)
     for i in range(5):
@@ -193,28 +166,6 @@ def Flavors_of_india(c: DeltaGenerator) -> None:
             url=top_recipes.iloc[i]["URL"],
             use_container_width=True,
         )
-
-    c.subheader("Here are some other recipes to try:")
-    e_expander = c.expander("Other Recipes")
-    for i in range(0, min(len(flavors_data), 25), 9):
-        e_columns = e_expander.columns(5)
-
-        for idx, v in enumerate(e_columns):
-            row_index = i + idx
-            if row_index >= len(flavors_data):
-                break  # Avoid IndexError
-
-            e_con = v.container(height=170, border=False)
-            e_con.image(
-                flavors_data.iloc[row_index]["image-url"],
-                caption=flavors_data.iloc[row_index]["TranslatedRecipeName"],
-                use_container_width=True,
-            )
-            v.link_button(
-                "Click to view the recipe",
-                url=flavors_data.iloc[row_index]["URL"],
-                use_container_width=True,
-            )
 
     c.subheader("Take a look at the data")
     f_expander = c.expander("Food Data", expanded=True)
