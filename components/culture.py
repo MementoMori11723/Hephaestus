@@ -2,12 +2,12 @@ import pandas as pd
 import streamlit as st
 from streamlit.delta_generator import DeltaGenerator
 
-from data.api import Flavors, Top_videos, Tourist_places
+from data import api
 
 
 # Main function for culture page
 def Sidebar(c: DeltaGenerator) -> None:
-    data = state_data()
+    data = api.State_data()
     option = c.selectbox("Select a state", data.keys())
     if option:
         c.write(data[option])
@@ -48,7 +48,7 @@ def Music(c: DeltaGenerator) -> None:
     c.write(
         """Indian cinema is not complete without music. Songs in Bollywood aren't just interludes — they’re emotions, traditions, and movements. Here are some of the **most iconic hits** that define cultural eras:"""
     )
-    music_data = Top_videos()
+    music_data = api.Top_videos()
     top_music_data = music_data.head(5)
     top_music_image_links = [
         "https://i.ytimg.com/vi/BBAyRBTfsOU/maxresdefault.jpg",
@@ -98,7 +98,7 @@ def Most_visited(c: DeltaGenerator) -> None:
         "India’s landscapes span snowy peaks to coastal sands. Its cultural landmarks attract millions:"
     )
 
-    places_data = Tourist_places()
+    places_data = api.Tourist_places()
     places_data = places_data.sort_values(
         by=["rating", "google_reviews_lakh"], ascending=[False, False]
     )
@@ -151,7 +151,7 @@ def Flavors_of_india(c: DeltaGenerator) -> None:
         "No cultural exploration is complete without tasting India’s diverse cuisine — where spices meet stories."
     )
 
-    flavors_data = Flavors().sample(frac=1)
+    flavors_data = api.Flavors().sample(frac=1)
     top_recipes = (
         flavors_data.sort_values(
             by=["TotalTimeInMins", "Ingredient-count", "is_vegetarian"]
@@ -219,128 +219,3 @@ def Future(main: DeltaGenerator) -> None:
     main.write(
         "India’s culture isn’t just preserved — it’s evolving. And through this website, you’re invited to explore it, taste it, and keep it alive."
     )
-
-
-def state_data() -> dict[str, str]:
-    return {
-        "Jammu & Kashmir": """ 
-        - Home to the world's only floating post office on Dal Lake in Srinagar.
-        - The region boasts breathtaking landscapes, including the famous Dal Lake and the Himalayas.
-        - Known for its rich handicrafts, especially Pashmina shawls and Kashmiri carpets.
-        """,
-        "Himachal Pradesh": """ 
-        - Nicknamed "Dev Bhoomi" or "Land of the Gods" due to its numerous temples.
-        - Home to the Great Himalayan National Park, a UNESCO World Heritage Site.
-        - The state is known for its apple orchards, contributing significantly to India's apple production.
-        """,
-        "Delhi": """
-        - Home to three UNESCO World Heritage Sites: Qutub Minar, Red Fort, and Humayun's Tomb.
-        - The Delhi Metro is one of the largest and busiest metro networks in the world.
-        - The city has a rich history, having been the capital of several empires.
-        """,
-        "Punjab": """ 
-        - The Golden Temple in Amritsar is a major pilgrimage site for Sikhs worldwide.
-        - Bhangra and Giddha are traditional dance forms originating from Punjab.
-        - Known as the "Granary of India" due to its extensive wheat and rice production.
-        """,
-        "Haryana": """ 
-        - The ancient city of Kurukshetra is believed to be the battlefield of the Mahabharata.
-        - Home to the Sultanpur National Park, a bird watcher's paradise.
-        - Known for its rich tradition in wrestling and producing many national-level athletes.
-        """,
-        "Uttarakhand": """ 
-        - Hosts the Char Dham pilgrimage sites: Yamunotri, Gangotri, Kedarnath, and Badrinath.
-        - The Jim Corbett National Park, India's first national park, is located here.
-        - Known as the "Land of Gods" due to its numerous Hindu temples and pilgrimage centers.
-        """,
-        "Uttar Pradesh": """ 
-        - Home to the iconic Taj Mahal in Agra, one of the Seven Wonders of the World.
-        - Varanasi, one of the world's oldest inhabited cities, is located here.
-        - The state has a rich tradition in classical music and dance, including Kathak.
-        """,
-        "Madhya Pradesh": """ 
-        - Known as the "Heart of India" due to its central location.
-        - Hosts the Khajuraho Group of Monuments, famous for their erotic sculptures.
-        - The Bhimbetka rock shelters exhibit prehistoric cave paintings.
-        """,
-        "Chhattisgarh": """
-        - The name translates to "Thirty-Six Forts," though the exact origin is debated.
-        - Rich in mineral resources and dense forests, supporting diverse wildlife.
-        - Home to the Chitrakote Falls, often referred to as the "Niagara Falls of India."
-        """,
-        "Rajasthan": """
-        - Known for its majestic forts and palaces, including the Amber Fort and City Palace.
-        - Hosts the Thar Desert, the world's 17th largest desert.
-        - The Pushkar Camel Fair is one of the world's largest livestock fairs.
-        """,
-        "Gujarat": """
-        - The Gir National Park is the only natural habitat of the Asiatic lion.
-        - Tulsi Shyam in Gujarat is known for a gravity hill where vehicles appear to roll uphill.
-        - The state is famous for its vibrant Navratri festival celebrations.
-        """,
-        "Maharashtra": """
-        - Mumbai, the capital, is the financial hub of India and home to Bollywood.
-        - The Ajanta and Ellora caves are UNESCO World Heritage Sites known for their ancient rock-cut temples.
-        - The state has a rich tradition of Lavani, a genre of music popular in Maharashtra.
-        """,
-        "Goa": """
-        - Known for its pristine beaches and Portuguese heritage.
-        - The Basilica of Bom Jesus in Old Goa is a UNESCO World Heritage Site.
-        - Celebrates vibrant festivals like Carnival and Shigmo with great enthusiasm.
-        """,
-        "Andhra Pradesh": """
-        - The city of Amaravati is being developed as the state's new capital.
-        - Home to the Tirumala Venkateswara Temple, one of the world's richest temples.
-        - The state has a rich tradition of Kuchipudi, a classical Indian dance form.
-        """,
-        "Telangana": """
-        - Hyderabad, the capital, is known for its historic Charminar and delicious biryani.
-        - The region celebrates the Bonalu festival, dedicated to the Goddess Mahakali.
-        - Known for its unique art forms like Nirmal paintings and Bidriware.
-        """,
-        "Karnataka": """
-        - Bengaluru, the capital, is known as the "Silicon Valley of India."
-        - Home to Hampi, a UNESCO World Heritage Site with ruins of the Vijayanagara Empire.
-        - The state is rich in biodiversity, with numerous wildlife sanctuaries and national parks.
-        """,
-        "Tamil Nadu": """
-        - Chennai is considered the cultural capital of South India.
-        - Bharatanatyam, one of the oldest classical dance forms, originated here.
-        - The state has a rich tradition of temple architecture, evident in structures like the Meenakshi Temple.
-        """,
-        "Kerala": """
-        - Known as "God's Own Country" for its scenic landscapes and backwaters.
-        - The state has the highest literacy rate in India.
-        - Celebrates the Onam festival with traditional boat races and dances.
-        """,
-        "Bihar": """
-        - Bodh Gaya in Bihar is where Gautama Buddha attained enlightenment.
-        - The ancient Nalanda University was a renowned center of learning.
-        - Chhath Puja, dedicated to the Sun God, is a major festival here.
-        """,
-        "Jharkhand": """
-        - Rich in mineral resources, contributing significantly to India's economy.
-        - Home to the Betla National Park, known for its wildlife and waterfalls.
-        - Hosts the tribal festival of Sarhul, celebrating nature and community.
-        """,
-        "Odisha": """
-        - The Sun Temple at Konark is a UNESCO World Heritage Site.
-        - Hosts the Rath Yatra festival in Puri, attracting millions of devotees.
-        - Known for its classical dance form, Odissi.
-        """,
-        "West Bengal": """
-        - Kolkata was the capital of British India until 1911.
-        - The Sundarbans, the world's largest mangrove forest, is located here.
-        - Celebrates Durga Puja with grandeur and artistic pandals.
-        """,
-        "Assam": """
-        - Famous for its Assam tea, exported worldwide.
-        - Kaziranga National Park is home to the one-horned rhinoceros.
-        - Celebrates Bihu, marking the Assamese New Year and agricultural cycles.
-        """,
-        "Arunachal Pradesh": """
-        - Known as the "Land of the Rising Sun" in India.
-        - Home to diverse indigenous tribes with unique cultures.
-        - Tawang Monastery is the largest monastery in India.
-        """,
-    }
