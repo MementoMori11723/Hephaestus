@@ -11,6 +11,7 @@ fastReruns = true
 [server]
 port = 8501
 runOnSave = true
+enableStaticServing = true
 
 [theme]
 base = "light"

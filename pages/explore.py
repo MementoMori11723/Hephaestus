@@ -7,11 +7,11 @@ try:
 
     explore.Sidebar(side_main)
 
+    explore.Artwork(main)
+
     explore.Flavors(main)
 
     explore.Places(main)
-
-    explore.Artwork(main)
 
     explore.Others(main)
 except Exception as e:

@@ -61,7 +61,7 @@ def Sidebar(c: DeltaGenerator) -> None:
 
 
 def Others(c: DeltaGenerator) -> None:
-    c.header("Find More")
+    c.header("Find More Information Here")
     e = c.expander("More Resoures", expanded=True)
     e.write(
         "- [Buy Indian Dresses & Indian Clothes Online - Panash India](https://www.panashindia.com/sale-promotions)"
@@ -75,8 +75,72 @@ def Others(c: DeltaGenerator) -> None:
 
 
 def Artwork(c: DeltaGenerator) -> None:
-    e = c.expander("List of artwork!")
-    e.write("test")
+    def section(data: dict):
+        c.subheader(data["Name"])
+        c.write(data["Desc"])
+        columns = c.columns(5, gap="small", vertical_alignment="center")
+        for i, column in enumerate(columns):
+            column.image(
+                f"./static/{data['Field']}/{i+1}.jpg", use_container_width=True
+            )
+
+    c.header("Different Artworks in india")
+    section(
+        {
+            "Name": "Gond Art",
+            "Field": "gond",
+            "Desc": "Gond art is a vibrant and expressive form of folk art practiced by the Gond people, one of the largest tribal groups in India, primarily in Madhya Pradesh. It's known for its use of natural pigments, detailed depictions of nature and mythology, and intricate dot and line patterns.",
+        }
+    )
+    section(
+        {
+            "Name": "Kalighat Art",
+            "Field": "kalighat",
+            "Desc": "Kalighat painting is a traditional art form from West Bengal, India, known for its vibrant colors, simplified forms, and strong lines. It originated in the mid-19th century near the Kalighat Kali Temple in Kolkata and was created by Patua artists, who were itinerant storytellers.",
+        }
+    )
+    section(
+        {
+            "Name": "Kangra Art",
+            "Field": "kangra",
+            "Desc": "Kangra painting, also known as Kangra miniature painting, is a school of Pahari (hill) painting that originated in the Kangra region of Himachal Pradesh, India. This art form developed in the 18th century and is characterized by its delicate brushwork, vivid colors, and depiction of themes from Hindu mythology, particularly the love stories of Radha and Krishna.",
+        }
+    )
+    section(
+        {
+            "Name": "Kerala Mural",
+            "Field": "kerala-mural",
+            "Desc": "Kerala mural paintings are a vibrant and traditional form of wall art found in temples and palaces throughout the state of Kerala, India. They are known for their intricate detailing, use of natural pigments, and depiction of scenes from Hindu mythology and epics like the Ramayana and Mahabharata.",
+        }
+    )
+    section(
+        {
+            "Name": "Madhubani Art",
+            "Field": "madhubani",
+            "Desc": "Madhubani art, also known as Mithila painting, is a vibrant and intricate style of folk art from the Mithila region of Bihar, India. It's characterized by bright colors, geometric patterns, and the use of natural dyes and pigments. ",
+        }
+    )
+    section(
+        {
+            "Name": "Mandana Art",
+            "Field": "mandana",
+            "Desc": "Mandana art is a traditional tribal art form from Madhya Pradesh and Rajasthan, primarily practiced by the Meena community. It involves creating paintings on walls and floors of homes, often using natural materials like clay, cow dung, and red ochre (geru). The art is a form of decoration and is used to mark auspicious occasions like births, weddings, and festivals, as well as to ward off evil spirits and invite good fortune. ",
+        }
+    )
+    section(
+        {
+            "Name": "Pichwai Art",
+            "Field": "pichwai",
+            "Desc": "Pichwai art is a traditional painting style from Rajasthan, India, particularly known for its depiction of Lord Krishna and his life, These paintings, typically on cloth, are vibrant, detailed, and often used as devotional art in temples and homes. They are characterized by intricate floral motifs, bright natural colors, and a distinct style related to the town of Nathdwara.",
+        }
+    )
+    section(
+        {
+            "Name": "Warli Art",
+            "Field": "warli",
+            "Desc": "Warli art is a traditional Indian folk art form from the Warli tribe in Maharashtra, known for its use of simple, geometric shapes and depictions of daily life, rituals, and nature. It's characterized by its minimalist graphic vocabulary, featuring circles, triangles, squares, and lines, often painted in white against a brown or red background.",
+        }
+    )
     c.divider()
 
 
@@ -99,10 +163,8 @@ def Flavors(c: DeltaGenerator) -> None:
             use_container_width=True,
         )
 
-    c.header("Explore")
-
-    c.divider()
-    c.subheader("Search over 4000+ recipes over here!")
+    c.header("Different Recipes in india")
+    c.subheader("Over 4000+ recipes over here!")
     c.write(
         "They say the way to a man's heart is through his stomach — and what better way to understand India than by cooking and savoring its rich, flavorful dishes? 🇮🇳"
     )
@@ -204,7 +266,8 @@ def Places(c: DeltaGenerator) -> None:
         st.write(f"- **Best time**: {data['data']['best_time_text']}")
         st.write(f"- **Weekly off**: {data['data']['weekly_off']}")
 
-    c.subheader("Search over 350+ places in india over here!")
+    c.header("Different Places to visit in india")
+    c.subheader("Over 350+ places in india over here!")
     c.write(
         "They say the soul of a country lies in its landscapes — and what better way to discover India than by exploring its iconic landmarks and hidden gems, each telling a story of its own? 🇮🇳"
     )

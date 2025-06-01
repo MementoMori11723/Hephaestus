@@ -1,5 +1,5 @@
 # from data.api import fetch
 
 
-def analyse():
-    pass
+def analyse(data: dict) -> dict:
+    return data
